@@ -1,0 +1,84 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        screens: {
+        'xs': '475px',
+        // => @media (min-width: 475px) { ... }
+
+        'sm': '640px',
+        // => @media (min-width: 640px) { ... }
+
+        'md': '768px',
+        // => @media (min-width: 768px) { ... }
+
+        'lg': '1024px',
+        // => @media (min-width: 1024px) { ... }
+
+        'xl': '1280px',
+        // => @media (min-width: 1280px) { ... }
+
+        '2xl': '1536px',
+        // => @media (min-width: 1536px) { ... }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+  <div class="text-red-700 sm:text-green-500">
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+    Iste aspernatur nobis esse eos eius, iusto error id recusandae 
+    illum fugiat.
+</div>
+
+    <!-- justify-content - horizontally and align items - vertically -->
+    <!--<div class="parent flex border border-red-800 h-[500px] justify-center items-center gap-9"> 
+        <div class="child border border-black h-[100px] w-[100px] flex-grow"></div>
+        <div class="child border border-black h-[100px] w-[100px] "></div>
+        <div class="child border border-black h-[100px] w-[100px] "></div>
+        <div class="child border border-black h-[100px] w-[100px] "></div>
+    </div>-->
+
+    <div class="flex flex-col items-center xs:justify-center xs:flex-row">
+        <div class="child border border-red-700 h-[100px] w-[100px]">Lorem ipsum dolor sit amet.</div>
+        <div class="child border border-red-700 h-[100px] w-[100px]">Lorem ipsum dolor sit amet.</div>
+        <div class="child border border-red-700 h-[100px] w-[100px]">Lorem ipsum dolor sit amet.</div>
+        <div class="child border border-red-700 h-[100px] w-[100px]">Lorem ipsum dolor sit amet.</div>
+    </div>
+
+    <!-- Positioning -->
+
+    <!-- <div class="parent border border-green-600 w-[500px] h-[500px] mt-40 ml-[100px]">
+        <div class="child border border-red-500 h-[100px] w-[100px] absolute left-[700px]"></div>
+    </div> -->
+
+
+</body>
+</html>
